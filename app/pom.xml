@@ -5,22 +5,41 @@
 
         <!-- parent coordinates -->
         <parent>
-                <groupId>com.trunkStudio</groupId>
+                <groupId>tw.agileworks</groupId>
                 <artifactId>multi-app</artifactId>
                 <version>1.0</version>
         </parent>
 
         <!-- project coordinates -->
-        <groupId>com.trunkStudio</groupId>
+        <groupId>tw.agileworks</groupId>
         <artifactId>app</artifactId>
         <version>1.0</version>
 
         <!-- project dependencies -->
         <dependencies>
                 <dependency>
-                        <groupId>com.trunkStudio</groupId>
+                        <groupId>tw.agileworks</groupId>
                         <artifactId>util</artifactId>
                         <version>1.0</version>
                 </dependency>
         </dependencies>
+        <build>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-jar-plugin</artifactId>
+
+              <configuration>
+                <archive>
+                  <manifest>
+                    <addClasspath>true</addClasspath>
+                    <mainClass>tw.agileworks.App</mainClass>
+                  </manifest>
+                </archive>
+              </configuration>
+            </plugin>
+          </plugins>
+        </build>
+
+
 </project>
