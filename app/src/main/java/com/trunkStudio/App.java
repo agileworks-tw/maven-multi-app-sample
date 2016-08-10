@@ -1,6 +1,6 @@
-package com.xyz;
+package com.trunkStudio;
 
-import com.xyz.util.*;
+import com.trunkStudio.util.*;
 
 public class App {
 

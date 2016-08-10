@@ -5,20 +5,20 @@
 
         <!-- parent coordinates -->
         <parent>
-                <groupId>com.xyz</groupId>
+                <groupId>com.trunkStudio</groupId>
                 <artifactId>multi-app</artifactId>
                 <version>1.0</version>
         </parent>
 
         <!-- project coordinates -->
-        <groupId>com.xyz</groupId>
+        <groupId>com.trunkStudio</groupId>
         <artifactId>app</artifactId>
         <version>1.0</version>
 
         <!-- project dependencies -->
         <dependencies>
                 <dependency>
-                        <groupId>com.xyz</groupId>
+                        <groupId>com.trunkStudio</groupId>
                         <artifactId>util</artifactId>
                         <version>1.0</version>
                 </dependency>

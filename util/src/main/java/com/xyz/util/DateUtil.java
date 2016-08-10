@@ -1,4 +1,4 @@
-package com.xyz.util;
+package com.trunkStudio.util;
 
 import java.util.Date;
 import org.apache.commons.lang.time.DateFormatUtils;
