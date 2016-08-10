@@ -10,8 +10,12 @@
         <packaging>pom</packaging>
 
         <modules>
+                <module>dist</module>
                 <module>app</module>
                 <module>util</module>
         </modules>
+
+
+
 
 </project>
