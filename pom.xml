@@ -4,7 +4,7 @@
         <modelVersion>4.0.0</modelVersion>
 
         <!-- project coordinates -->
-        <groupId>com.trunkStudio</groupId>
+        <groupId>tw.agileworks</groupId>
         <artifactId>multi-app</artifactId>
         <version>1.0</version>
         <packaging>pom</packaging>

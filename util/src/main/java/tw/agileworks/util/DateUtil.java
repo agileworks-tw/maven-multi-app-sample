@@ -1,4 +1,4 @@
-package com.trunkStudio.util;
+package tw.agileworks.util;
 
 import java.util.Date;
 import org.apache.commons.lang.time.DateFormatUtils;
